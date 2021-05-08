@@ -31,7 +31,7 @@ export default function BarChart() {
     });
 
     useEffect(() => {
-        axios.get(`${BASE_URL}/sales/total-per-seller`)
+        axios.get(`${BASE_URL}/sales/conversion-rate-per-seller`)
             .then(response => {
                 const data = response.data as ConversionRatePerSeller[];
                 const myLabels = data.map(item => item.sellerName);
