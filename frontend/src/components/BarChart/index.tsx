@@ -65,6 +65,7 @@ export default function BarChart() {
             series={chartData.series}
             type="bar"
             height="240"
+            className="bar-chart"
         />
     );
 }

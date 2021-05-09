@@ -6,13 +6,13 @@ export default function Home() {
     return (
         <>
             <NavBar />
-            <div className="container">
-                <div className="jumbotron">
-                    <h1 className="display-4">DSVendas</h1>
-                    <p className="lead">Analise o desempenho das suas vendas por diferentes perspectivas</p>
+            <div className="content container">
+                <div>
+                    <h1>DSVendas</h1>
+                    <h4> Analise o desempenho das suas vendas por diferentes perspectivas</h4>
                     <hr />
-                    <p>Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um backend construído com Spring Boot.</p>
-                    <Link className="btn btn-primary btn-lg" to="/dashboard">
+                    <p> Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um backend construído com Spring Boot.</p>
+                    <Link className="button" to="/dashboard">
                         Acessar dashboard
                     </Link>
                 </div>

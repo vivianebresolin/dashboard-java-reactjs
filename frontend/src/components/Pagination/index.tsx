@@ -7,9 +7,9 @@ type PaginationProps = {
 
 export default function Pagination({ page, onPageChange }: PaginationProps) {
     return (
-        <div className="row d-flex justify-content-center">
+        <div className="pagination-container row d-flex justify-content-center">
             <nav>
-                <ul className="pagination">
+                <ul className="pagination pagination-sm">
                     <li className={`page-item ${page.first ? 'disabled' : ''}`}>
                         <button className="page-link" onClick={() => onPageChange(page.number - 1)}>Anterior</button>
                     </li>

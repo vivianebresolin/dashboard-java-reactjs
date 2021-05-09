@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+    --color-primary: #FF8400;
+    --color-background-website: #5D6D7E ;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Ubuntu", sans-serif;
+    background-color: var(--color-background-website);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.navBar {
+    flex: 1;
+
+    img {
+        background-color: #5D6D7E;
+        border-radius: 0.2rem;
+        padding: 1rem;
+    }
+}
+
+.content {
+    flex: 14;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    color: #fff; 
+    font-weight: 300;    
+    
+    h1 {
+        font-size: 5rem;
+        font-weight: 300;
+        margin-bottom: 1.5rem;
+    }
+
+    h4 {
+        font-weight: 300;
+    }
+
+    hr {
+        border-color: #fff;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-bottom: 3.2rem;
+    }
+
+    div .button {
+        border: 1px solid #fff;
+        border-radius: 0.5rem;
+        color: #fff; 
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: 1rem;
+        transition: 0.2s ease all;
+        cursor: pointer;
+        box-shadow: 1.95px 1.95px 2.6px rgba(0, 0, 0, 0.5);
+
+        &:hover { 
+            text-decoration: none;
+            padding: 1.2rem;
+            transition: 0.2s ease all;
+        }
+    }
+}
+
+.dashboard {
+    flex: 14;
+    color: #fff;
+}
+
+.footer {
+    flex: 2;
+    flex-shrink: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+.pagination-container {
+    width: 100vw;
+}
+
+.bar-chart, .donut-chart {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 17rem;
+}
+
+table {
+    background-color: #fff;
+}

@@ -35,6 +35,7 @@ export default function DonutChart() {
             series={chartData.series}
             type="donut"
             height="240"
+            className="donut-chart"
         />
     );
 }
