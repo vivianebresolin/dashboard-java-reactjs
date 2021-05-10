@@ -56,13 +56,13 @@ https://vvbresolin-dashboard.netlify.app/
 
 ## Modelo Conceitual
 
-<img src="frontend/src/assets/img/img-modelo-conceitual.png" width="100%"/>
+<img src="frontend/src/assets/img/img-modelo-conceitual.png" width="80%"/>
 
 <br /> 
 
 ## Padrão de camadas
 
-<img src="frontend/src/assets/img/img-padrao-camadas.png" width="100%"/> 
+<img src="frontend/src/assets/img/img-padrao-camadas.png" width="80%"/> 
 
 <br />   
   
