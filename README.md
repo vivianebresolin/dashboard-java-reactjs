@@ -19,11 +19,11 @@ https://vvbresolin-dashboard.netlify.app/
 
 ### Homepage
 
-<img src="https://github.com/vivianebresolin/dashboard-java-reactjs/blob/main/frontend/src/assets/img/img-home-page.PNG?raw=true" width="600"/>
+<img src="https://github.com/vivianebresolin/dashboard-java-reactjs/blob/main/frontend/src/assets/img/img-home-page.PNG?raw=true" width="100%"/>
 
 ### Dashboard
 
-<img src="https://github.com/vivianebresolin/dashboard-java-reactjs/blob/main/frontend/src/assets/img/img-dashboard.PNG?raw=true" width="600"/>
+<img src="https://github.com/vivianebresolin/dashboard-java-reactjs/blob/main/frontend/src/assets/img/img-dashboard.PNG?raw=true" width="100%"/>
 
 </div>
 
