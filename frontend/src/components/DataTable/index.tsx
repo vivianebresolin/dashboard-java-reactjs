@@ -28,8 +28,8 @@ export default function DataTable() {
 
     return (
         <>
-            <Pagination page={page} onPageChange={changePage} />
             <div className="table-responsive">
+                <Pagination page={page} onPageChange={changePage} />
                 <table className="table table-striped table-sm">
                     <thead>
                         <tr>

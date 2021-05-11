@@ -21,7 +21,9 @@ export default function Dashboard() {
                     </div>
                 </div>
             </div>
-            <DataTable />
+            <div className="data-table-container container-xxl">
+                <DataTable />
+            </div>
         </>
     );
 }

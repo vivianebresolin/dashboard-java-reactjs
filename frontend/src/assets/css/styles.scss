@@ -5,6 +5,16 @@
     --color-background-website: #5D6D7E ;
 }
 
+html { 
+    @media (max-width: 1080px) {
+        font-size: 93.75%;
+    }
+
+    @media (max-width: 720px) {
+        font-size: 87.5%;
+    }
+}
+
 html, body {
     height: 100%;
     font-family: "Ubuntu", sans-serif;
@@ -21,7 +31,7 @@ html, body {
     flex: 1;
 
     img {
-        background-color: #5D6D7E;
+        background-color: var(--color-background-website);
         border-radius: 0.2rem;
         padding: 1rem;
     }
@@ -93,7 +103,8 @@ html, body {
 }
 
 .pagination-container {
-    width: 100vw;
+    width: 100%;
+    margin: 0 !important;
 }
 
 .bar-chart, .donut-chart {
@@ -101,10 +112,17 @@ html, body {
     border-radius: 1rem;
     padding: 1rem;
     height: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 table {
     background-color: #fff;
+
+    @media (max-width: 720px) {
+        padding: 0 2rem;
+    }
 }
 
 .loading {
@@ -116,5 +134,22 @@ table {
     svg {
         margin: 3.55rem 0;
         transform: translate(120%);
+    }
+}
+
+@media (max-width: 360px) {
+    html {
+        font-size: 68.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    .content {
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .bar-chart{
+        margin-bottom: 2rem;
     }
 }

@@ -53,8 +53,8 @@ export default function BarChart() {
                         }
                     ]
                 });
-                setLoading(false);
-            });
+            })
+            .then(() => setLoading(false));
     }, []);
 
     const options = {
