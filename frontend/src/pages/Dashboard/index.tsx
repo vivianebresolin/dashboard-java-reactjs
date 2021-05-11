@@ -20,7 +20,6 @@ export default function Dashboard() {
                         <DonutChart />
                     </div>
                 </div>
-
             </div>
             <DataTable />
         </>

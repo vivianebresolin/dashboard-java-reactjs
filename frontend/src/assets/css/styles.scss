@@ -106,3 +106,15 @@ html, body {
 table {
     background-color: #fff;
 }
+
+.loading {
+    background-color: white;
+    border-radius: 1rem;
+    width: 32.75rem;
+    height: 17rem;
+    
+    svg {
+        margin: 3.55rem 0;
+        transform: translate(120%);
+    }
+}

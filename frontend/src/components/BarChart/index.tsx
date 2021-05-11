@@ -4,6 +4,7 @@ import { ConversionRatePerSeller } from 'types/sale';
 import axios from 'axios';
 import { BASE_URL } from 'utils/requests';
 import { round } from 'utils/format';
+import { Loading } from '../Loading';
 
 type SeriesData = {
     name: string,
@@ -14,10 +15,13 @@ type ChartData = {
     labels: {
         categories: string[],
     },
-    series: SeriesData[]
+    series: SeriesData[],
+
 }
 
 export default function BarChart() {
+    const [loading, setLoading] = useState(false);
+
     const [chartData, setChartData] = useState<ChartData>({
         labels: {
             categories: [],
@@ -31,6 +35,7 @@ export default function BarChart() {
     });
 
     useEffect(() => {
+        setLoading(true);
         axios.get(`${BASE_URL}/sales/conversion-rate-per-seller`)
             .then(response => {
                 const data = response.data as ConversionRatePerSeller[];
@@ -48,6 +53,7 @@ export default function BarChart() {
                         }
                     ]
                 });
+                setLoading(false);
             });
     }, []);
 
@@ -60,12 +66,17 @@ export default function BarChart() {
     };
 
     return (
-        <Chart
-            options={{ ...options, xaxis: chartData.labels }}
-            series={chartData.series}
-            type="bar"
-            height="240"
-            className="bar-chart"
-        />
+        <>
+            { loading ? (<Loading />) :
+                (
+                    <Chart
+                        options={{ ...options, xaxis: chartData.labels }}
+                        series={chartData.series}
+                        type="bar"
+                        height="240"
+                        className="bar-chart"
+                    />
+                )}
+        </>
     );
 }
