@@ -2,7 +2,8 @@
 
 :root {
     --color-primary: #FF8400;
-    --color-background-website: #5D6D7E ;
+    --color-background-website: #5D6D7E;
+    --color-background-charts: #F2F4F4;
 }
 
 html { 
@@ -108,7 +109,7 @@ html, body {
 }
 
 .bar-chart, .donut-chart {
-    background-color: #F4F6F6;
+    background-color: var(--color-background-charts);
     border-radius: 1rem;
     padding: 1rem;
     height: 17rem;
@@ -126,7 +127,8 @@ table {
 }
 
 .loading {
-    background-color: #F4F6F6;
+    background-color: var(--color-background-charts);
+    border-radius: 1rem;
     border-radius: 1rem;
     max-width: 32.75rem;
     max-height: 17rem;
