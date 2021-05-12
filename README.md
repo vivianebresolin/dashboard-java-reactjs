@@ -13,6 +13,8 @@ O **Dashboard de Vendas** é uma aplicação que foi desenvolvida durante a "Sem
 Caso queira visualizar a aplicação diretamente em seu navegador, basta clicar neste link:
 https://vvbresolin-dashboard.netlify.app/
 
+<br />
+
 ## Imagens da aplicação
 
 <div align="center">
@@ -21,9 +23,31 @@ https://vvbresolin-dashboard.netlify.app/
 
 <img src="https://github.com/vivianebresolin/dashboard-java-reactjs/blob/main/frontend/src/assets/img/img-home-page.PNG?raw=true" width="100%"/>
 
+<br />
+
 ### Dashboard
 
 <img src="https://github.com/vivianebresolin/dashboard-java-reactjs/blob/main/frontend/src/assets/img/img-dashboard.PNG?raw=true" width="100%"/>
+
+<br />
+
+### Loaders
+
+<img src="github/loaders.png" width="100%"/>
+
+<br />
+
+### Mobile
+
+</div>
+
+<div style="display: flex; margin-right: 5px;" align="center">
+
+<img src="github/mobile1.PNG" width="30%"/>
+
+<img src="github/mobile2.PNG" width="30%"/>
+
+<img src="github/mobile3.PNG" width="30%"/>
 
 </div>
 
@@ -56,16 +80,28 @@ https://vvbresolin-dashboard.netlify.app/
 
 ## Modelo Conceitual
 
-<img src="frontend/src/assets/img/img-modelo-conceitual.png" width="80%"/>
+<div align="center">
+
+<img src="frontend/src/assets/img/img-modelo-conceitual.png" width="70%"/>
+
+</div>
 
 <br /> 
 
 ## Padrão de camadas
 
-<img src="frontend/src/assets/img/img-padrao-camadas.png" width="80%"/> 
+<div align="center">
+
+<img src="frontend/src/assets/img/img-padrao-camadas.png" width="70%"/> 
+
+</div>
 
 <br />   
   
-<div align="center">Made with 🧡 and :coffee: | Find me on <a href="https://www.linkedin.com/in/vivianebresolin/"> LinkedIn</a></div>
+<div align="center">
+
+Made with 🧡 and :coffee: | Find me on <a href="https://www.linkedin.com/in/vivianebresolin/"> LinkedIn</a>
+
+</div>
 
 
